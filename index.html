@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ereeqa Toheed</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ereeqa Toheed</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/1.png" alt="Ereeqa Toheed profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ereeqa Toheed</h1>
+        <p class="section__text__p2">
+          I'm a Marketing Maverick, And I love finding ways to weave AI into Digital Strategies
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-ereeqa-2024.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ereeqa-t-6b764618b/'"
+          />
+          <img
+            src="./assets/email.png"
+            alt="My Email"
+            class="icon"
+            onclick="location.href='mailto:ereeqatoheed@gmail.com'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">New around here?</p>
+      <h1 class="title">Let me introduce myself!</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br />Digital Marketing</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors <br />Artificial Intelligence</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I’m a specialist in AI-driven marketing strategies for social media, with expertise in content strategy, SEO, and social media management. I'm skilled in leveraging Meta Business Suite to optimize campaigns and drive engagement, creating data-informed strategies that make an impact. With a foundation in Artificial Intelligence, I bring a unique perspective to digital marketing.
+              <br /><br />
+              Outside of work, I love getting lost in a good book or baking up some of my signature brownies—because a little fun and creativity make everything better!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">What Can I do For You?</p>
+      <h1 class="title">Skills and Expertise</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Brand Engagement</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Audience-Centric Content Creation</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Platform-Specific Strategy</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Visual Branding</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Influencer Partnerships</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Community Management</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Brand Voice Development</h3>
+                </div>
+              </article>
+              <!-- Move Customer Feedback Integration before Event-Based Campaigns -->
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Customer Feedback Integration</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Event-Based Campaigns</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title"> Insight-Driven Marketing</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AI-Powered Personalization</h3>
+               
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> Data Analysis and Interpretation</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SEO and Keyword Strategy</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>A/B Testing for Optimization</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Campaign Performance Tracking</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Customer Segmentation</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Trend Analysis</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> ROI-Focused Strategy</h3>
+                </div>
+              </article>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <!-- Original Three Projects -->
+        <div class="project-row">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/emumba.jpeg" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Emumba</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/company/emumba/posts/?feedView=all'">
+                Linkedin
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/emumba_official/'">
+                Instagram
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/cyber.jpeg" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">CyberMonkeyz</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/company/cybermonkeyz/posts/?feedView=all'">
+                Linkedin
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/cybermonkeyz/'">
+                Instagram
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/vectragi.jpeg" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Vectragi</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/posts/focalpeak_bmpcc4k-focalpeakvisuals-filmmakingvibes-activity-7131502417883410432-nYb_?utm_source=share&utm_medium=member_desktop'">
+                Linkedin
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/vectragi/'">
+                Instagram
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Three Projects Below the Original Three -->
+        <div class="project-row">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/corewarellc.jpeg" alt="Project 4" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Coreware</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/company/coreware-inc/'">
+                Linkedin
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/corewarellc/'">
+                Instagram
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/projectc.jpeg" alt="Project 5" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Project C Foundation</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/company/projectcfoundation/'">
+                Linkedin
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/projject_c/'">
+                Instagram
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/taleeminfo.jpeg" alt="Project 6" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Taleeminfo.pk</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/in/taleeminfo-pk/'">
+                Linkedin
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/taleeminfopk/'">
+                Instagram
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Sweet of you to stop by!</p>
+      <h1 class="title">Contact Me if We're a Match.</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:ereeqatoheed@gmail.com">ereeqatoheed@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/ereeqa-t-6b764618b/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Ereeqa Toheed. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
